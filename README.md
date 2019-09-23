@@ -7,7 +7,7 @@
 在build.gradle直接引用 :
 
     dependencies {
-        compile 'com.github.SmileFei:AndroidPayLibrary:v2.0.0'
+        implementation 'com.github.franticn:AndroidPayLibrary:v2.2.2'
     }
     注意在Project的build.gradle中添加如下代码
     allprojects {
