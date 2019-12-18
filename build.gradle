@@ -14,11 +14,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
-
         google()
-        flatDir {
-            dirs project(':pay_library').file('libs')
-        }
     }
 }
 
